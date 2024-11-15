@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "mkdir -p dist && cp -r src/* dist/",
+    "build": "mkdir -p dist && cp -r index.js prisma.js swagger.js middleware routes uploads dist/",
     "start": "nodemon dist/app.js"
   },
   "keywords": [],
